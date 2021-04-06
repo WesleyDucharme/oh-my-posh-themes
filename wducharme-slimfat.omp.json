@@ -1,9 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "final_space": true,
-  "console_title": true,
-  "console_title_style": "template",
-  "console_title_template": "{{if .Root}}root :: {{end}}{{.Shell}} :: {{.Folder}}",
   "blocks": [
     {
       "type": "prompt",
@@ -90,6 +87,25 @@
           "foreground": "#7a7a7a",
           "properties": {
             "text": "\u276F\u276F"
+          }
+        }
+      ]
+    },
+	{
+      "type": "rprompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#9FD356",
+          "properties": {
+            "display_exit_code": true,
+            "always_numeric": true,
+            "always_enabled": false,
+            "error_color": "#E84855",
+            "color_background": false,
+            "prefix": " \ue009 "
           }
         }
       ]
