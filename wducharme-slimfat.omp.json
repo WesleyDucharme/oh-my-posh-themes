@@ -62,9 +62,9 @@
           "background": "#2f2f2f",
           "properties": {
             "prefix": "<#f2f200> \ue5ff </>",
-            "style": "full",
+            "style": "agnoster_short",
             "enable_hyperlink": false,
-            "folder_icon": "<#B5B2C2>\ue5fe </>"
+            "folder_icon": "<#B5B2C2>\ue5fe</>"
           }
         },
         {
