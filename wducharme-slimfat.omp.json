@@ -7,7 +7,7 @@
         {
           "background": "#2f2f2f",
           "foreground": "#26C6DA",
-          "leading_diamond": "\ue0c7\u2593",
+          "leading_diamond": "",
           "properties": {
             "alpine": "\uf300",
             "arch": "\uf303",
@@ -99,7 +99,7 @@
           },
           "style": "diamond",
           "template": " {{ .CurrentDate | date .Format }}<#007ACC> \uf64f </>",
-          "trailing_diamond": "\u2593",
+          "trailing_diamond": "",
           "type": "time"
         }
       ],
